@@ -7,5 +7,5 @@ if __name__ == '__main__':
     print(f'Encoded package string -> {string_from_values}\n')
     
     string: str = str(input("Enter package string: "))
-    values_from_string: list[int]  = pkg.decode(string)
+    values_from_string: list[int] = pkg.decode(string)
     print(f'Decoded list of values -> {values_from_string}\n')      
