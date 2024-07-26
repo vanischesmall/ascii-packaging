@@ -1,4 +1,4 @@
-#!/bin/bash
+ну#!/bin/bash
 set -e
 t="$HOME/.cache/depends/"
 rm -rf $t
@@ -107,6 +107,8 @@ sudo zypper in python3-material-color-utilities-python python3-base python3-rege
 sudo zypper in python3-gobject-devel libsoup-devel blueprint-compiler python3-anyascii
 sudo zypper in python-base python3-svglib python3-libsass libxdp-devel typelib-1_0-Xdp-1_0 typelib-1_0-XdpGtk3-1_0 typelib-1_0-XdpGtk4-1_0
 pip3 install https://github.com/T-Dynamos/materialyoucolor-python/archive/master.zip --break-system-packages
+sudo zypper in desktop-file-utils appstream-glib
+
 
 cd $t
 git clone https://github.com/GradienceTeam/Gradience.git
